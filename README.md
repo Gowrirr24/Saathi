@@ -46,10 +46,11 @@ This system promotes inclusive communication using AI.
 
 ---
 
-**SAATHI/
+SAATHI/
 │
 ├── src/
-│   └── main.py
+│   ├── main.py
+│   └── utils.py
 │
 ├── models/
 │   ├── emotion_model.h5
@@ -57,11 +58,11 @@ This system promotes inclusive communication using AI.
 │   └── label_encoder.save
 │
 ├── assets/
-│   └── demo_screenshot.png
+│   └── demo.png
 │
 ├── output/
 │   └── output.wav
 │
 ├── requirements.txt
 ├── README.md
-└── .gitignore**
+└── .gitignore
