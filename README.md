@@ -46,17 +46,22 @@ This system promotes inclusive communication using AI.
 
 ---
 
-## 📂 Project Structure
-SAATHI/
+**SAATHI/
+│
+├── src/
+│   └── main.py
 │
 ├── models/
 │   ├── emotion_model.h5
 │   ├── isl_landmark_model.h5
 │   └── label_encoder.save
 │
+├── assets/
+│   └── demo_screenshot.png
+│
 ├── output/
 │   └── output.wav
 │
-├── main.py
 ├── requirements.txt
 ├── README.md
+└── .gitignore**
